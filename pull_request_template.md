@@ -22,3 +22,11 @@ Find out about work item keys.
 ## ================================================================================
 
 4. When you create a pull request, use the key in the pull request title.
+
+## ================================================================================
+
+Connecting GitHub to Jira allows you to view development activity in the context of
+your Jira project and issues. To send development data from GitHub to Jira,
+your team must include issue keys in branch names, commit messages, and pull request titles.
+Even if your organization is still backfilling historical data, you can start using issue keys
+in your development work immediately.
