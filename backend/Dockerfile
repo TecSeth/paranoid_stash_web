@@ -1,7 +1,10 @@
-FROM python3.13:alpine 
+FROM python:3.12-slim
 
-ENV PYTHONUNBUFFERED=1
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-ENV PYTHONDONTWRITEBYTECODE=1
+COPY . .
 
-ENV var=1
+EXPOSE 8000
+CMD ["gunicorn", "projectname.wsgi:application", "--bind", "0.0.0.0:8000"]
