@@ -1,1 +1,1 @@
-Pull request Template
+[JIRA work Key] [Content]
