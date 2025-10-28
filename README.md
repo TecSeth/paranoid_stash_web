@@ -4,6 +4,8 @@ Is a web app for password managing.
 All passwords are stored in encrypted files on the server.
 Decryption, reading and encryption are performed on users machine only.
 
+..
+
 ## Architecture
 
 Frontent - React + Vite, TS
