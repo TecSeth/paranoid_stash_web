@@ -75,25 +75,25 @@ git restore --source=origin/main -- LICENSE
 3️⃣ docs/CODEOWNERS /docs/CODEOWNERS Third
 
 ```
-# Комментарии начинаются с #
-# Общий владелец для всего репозитория:
+# Comments start with #
+# The main OWNER of the whole repo:
 * @user1 @org/team-a
 
-# Конкретный файл:
+# Specified file:
 README.md @user2
 
-# Папка (все содержимое):
+# Folder (and all its content):
 /src/ @org/frontend-team
 
-# Подпапка где-то в любом месте:
+# Subfolder in every place:
 docs/** @org/tech-writers
 
-# Все JS файлы в корне:
+# All .js files in the root folder:
 *.js @user3
 
-# Все Python файлы в любом месте:
+# All Python files in all places:
 **/*.py @org/backend-team
 
-# Несколько владельцев для одного пути:
+# Several owners for the same path template:
 /infra/ @org/devops @user4
 ```
